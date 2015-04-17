@@ -1,5 +1,5 @@
 # sportsfont
-A font containing an icon typeset for sports.
+A font containing icons for sports.
 
 This font was created using http://www.fontello.com .
 
