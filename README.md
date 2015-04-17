@@ -7,6 +7,11 @@ Some icons are taken from Maki by Mapbox - you can find this on fontello.
 
 Some icon SVG images were found on http://www.flaticon.com .
 
+# Classes
+To view the different class contained in this icon set - please view go here:
+
+http://htmlpreview.github.com/?https://github.com/jamesadevine/sportsfont/blob/master/demo.html
+
 # Installation
 
 To install the sports font, download the source and include the following files:
