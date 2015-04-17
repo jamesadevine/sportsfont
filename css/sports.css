@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'sports';
-  src: url('https://portal.ombiel.co.uk/assets/LancasterTestInstance/javascript/sportsfont/sports.eot?64749220');
-  src: url('https://portal.ombiel.co.uk/assets/LancasterTestInstance/javascript/sportsfont/sports.eot?64749220#iefix') format('embedded-opentype'),
-       url('https://portal.ombiel.co.uk/assets/LancasterTestInstance/javascript/sportsfont/sports.woff?64749220') format('woff'),
-       url('https://portal.ombiel.co.uk/assets/LancasterTestInstance/javascript/sportsfont/sports.ttf?64749220') format('truetype'),
-       url('https://portal.ombiel.co.uk/assets/LancasterTestInstance/javascript/sportsfont/sports.svg?64749220#sports') format('svg');
+  src: url('../font/sports.eot?46107572');
+  src: url('../font/sports.eot?46107572#iefix') format('embedded-opentype'),
+       url('../font/sports.woff?46107572') format('woff'),
+       url('../font/sports.ttf?46107572') format('truetype'),
+       url('../font/sports.svg?46107572#sports') format('svg');
   font-weight: normal;
   font-style: normal;
 }
