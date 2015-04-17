@@ -20,4 +20,4 @@ Use this font as you will - I don't mind!
 
 # Adding to the font
 
-Please use the great tool fontello, the icon I added are contained in the ./src folder.
+Please use the great tool fontello, the icons I added are contained in the ./src folder.
