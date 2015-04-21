@@ -10,7 +10,7 @@ Some icon SVG images were found on http://www.flaticon.com .
 # Classes
 To view the different class contained in this icon set - please go here:
 
-(Unfortunately don't have time to set up a proper webpage - so you will need to pull down the git in order to see the icons)
+(Unfortunately don't have time to set up a proper webpage - so you will need to pull down the git in order to see the icons or browse the src folder)
 
 http://htmlpreview.github.com/?https://github.com/jamesadevine/sportsfont/blob/master/demo.html
 
