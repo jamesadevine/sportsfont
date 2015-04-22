@@ -5,6 +5,9 @@ This font was created using http://www.fontello.com .
 
 Some icons are taken from Maki by Mapbox - you can find this on fontello.
 
+The selected icons i used were:
+![maki icons](./maki-icons.png)
+
 Some icon SVG images were found on http://www.flaticon.com .
 
 # Classes
