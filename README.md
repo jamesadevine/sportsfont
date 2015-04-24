@@ -17,13 +17,18 @@ Alternatively, view the following image containing samples of the icons:
 ![icons](./font.png)
 
 # Installation
-
-To install the sports font, download the source and include the following files:
+## Manual
+To install the sports font manually, download the source and include the following files:
 
 ./css/sports.css
 
 All font files contained in ./font will need to be stored relative to the css directory. If you would like to store the font on a different path, the paths at the top of ./css/sports.css
 will need to be modified.
+
+## Bower
+Sportsfont also now exists on bower and as such it can be install using the command:
+
+`bower install sportsfont`
 
 Use this font as you will - I don't mind!
 
