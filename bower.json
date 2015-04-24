@@ -1,0 +1,29 @@
+{
+  "name": "sportsfont",
+  "version": "1.0.0",
+  "homepage": "https://github.com/jamesadevine/sportsfont",
+  "authors": [
+    "James Devine <j.devine@lancaster.ac.uk>"
+  ],
+  "description": "A font that contains a number of sports icons for use in front end development",
+  "keywords": [
+    "sports",
+    "font",
+    "icon",
+    "css",
+    "front",
+    "end"
+  ],
+  "main": [
+    "./css/sportsfont.css",
+    "./fonts/*"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "src",
+    "*.html",
+    "*.png",
+    "*.md"
+  ]
+}
