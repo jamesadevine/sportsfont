@@ -20,7 +20,7 @@
   ],
   "license": "MIT",
   "ignore": [
-    "**/.*",
+    "*/.*",
     "src",
     "*.html",
     "*.png",
