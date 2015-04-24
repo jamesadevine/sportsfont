@@ -24,6 +24,11 @@
     "src",
     "*.html",
     "*.png",
+    "css/animation.css",
+    "css/sports-codes.css",
+    "css/sports-embedded.css",
+    "css/sports-ie7.css",
+    "css/sports-ie7-codes.css",
     "*.md"
   ]
 }
