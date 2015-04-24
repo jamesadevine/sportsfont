@@ -15,7 +15,7 @@
     "end"
   ],
   "main": [
-    "./css/sportsfont.css",
+    "./css/sports.css",
     "./fonts/*"
   ],
   "license": "MIT",
