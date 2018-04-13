@@ -1,0 +1,41 @@
+{
+  "name": "sportsfont",
+  "version": "1.1.0",
+  "description": "A font that contains a number of sports icons for use in front end development",
+  "scripts": {
+    "precommit": "npm test",
+    "test": "gulp test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jamesadevine/sportsfont.git"
+  },
+  "keywords": [
+    "icon",
+    "sports",
+    "flat",
+    "css",
+    "webfont"
+  ],
+  "author": {
+    "name" : "James Devine",
+    "email": "j.devine@lancaster.ac.uk"
+  },
+  "contributors": [
+    {
+      "name": "Émile Bergeron",
+      "email": "ber.emile@prismalstudio.com", 
+      "url": "http://www.prismalstudio.com/"
+    }
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jamesadevine/sportsfont/issues"
+  },
+  "homepage": "https://github.com/jamesadevine/sportsfont",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-sass": "^2.3.2",
+    "husky": "^0.11.8"
+  }
+}

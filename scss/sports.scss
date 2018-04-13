@@ -1,0 +1,170 @@
+// Default Variables
+$sports-font-path: "../font/" !default;
+$sports-font-family: "sports" !default;
+$sports-font-prefix: "icon-" !default;
+
+@if $sports-font-family == "sports" {
+  @font-face {
+    font-family: '#{$sports-font-family}';
+    src: url('#{$sports-font-path}sports.eot?46107572');
+    src: url('#{$sports-font-path}sports.eot?46107572#iefix') format('embedded-opentype'),
+         url('#{$sports-font-path}sports.woff?46107572') format('woff'),
+         url('#{$sports-font-path}sports.ttf?46107572') format('truetype'),
+         url('#{$sports-font-path}sports.svg?46107572#sports') format('svg');
+    font-weight: normal;
+    font-style: normal;
+  }
+}
+/* Chrome hack: SVG is rendered more smooth in Windozze. 100% magic, uncomment if you need it. */
+/* Note, that will break hinting! In other OS-es font will be not as sharp as it could be */
+/*
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: 'sports';
+    src: url('../font/sports.svg?46107572#sports') format('svg');
+  }
+}
+*/
+
+.#{$sports-font-prefix} {
+  &cricket,
+  &bicycle,
+  &baseball,
+  &golf,
+  &skiing,
+  &soccer,
+  &swimming,
+  &tennis,
+  &theatre,
+  &football,
+  &basketball-1,
+  &pitch,
+  &badminton,
+  &rowing,
+  &rugby,
+  &archery,
+  &baking,
+  &dance,
+  &bouldering,
+  &canoe,
+  &shooting,
+  &climbing,
+  &bowl,
+  &cycling,
+  &volleyball,
+  &unichallenge,
+  &trampoline,
+  &tabletennis,
+  &squash,
+  &sail,
+  &run,
+  &pool,
+  &goal,
+  &lacrosse,
+  &martial,
+  &hockey,
+  &frisbee,
+  &handball,
+  &fencing,
+  &horse,
+  &netball,
+  &darts,
+  &fulltime,
+  &halftime,
+  &kickoff,
+  &debate,
+  &starttime,
+  &cheerleader,
+  &pokemon,
+  &computer,
+  &boxing,
+  &croquet,
+  &cinema {
+    font-family: "sports";
+    font-style: normal;
+    font-weight: normal;
+    speak: none;
+
+    display: inline-block;
+    text-decoration: inherit;
+    width: 1em;
+    margin-right: .2em;
+    text-align: center;
+    /* opacity: .8; */
+
+    /* For safety - reset parent styles, that can break glyph codes*/
+    font-variant: normal;
+    text-transform: none;
+
+    /* fix buttons height, for twitter bootstrap */
+    line-height: 1em;
+
+    /* Animation center compensation - margins should be symmetric */
+    /* remove if not needed */
+    margin-left: .2em;
+
+    /* you can be more comfortable with increased icons size */
+    /* font-size: 120%; */
+
+    /* Font smoothing. That was taken from TWBS */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+
+    /* Uncomment for 3D effect */
+    /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
+  }
+}
+
+.#{$sports-font-prefix}cricket:before { content: '\e800'; } /* '' */
+.#{$sports-font-prefix}bicycle:before { content: '\e801'; } /* '' */
+.#{$sports-font-prefix}baseball:before { content: '\e802'; } /* '' */
+.#{$sports-font-prefix}golf:before { content: '\e803'; } /* '' */
+.#{$sports-font-prefix}skiing:before { content: '\e804'; } /* '' */
+.#{$sports-font-prefix}soccer:before { content: '\e805'; } /* '' */
+.#{$sports-font-prefix}swimming:before { content: '\e806'; } /* '' */
+.#{$sports-font-prefix}tennis:before { content: '\e807'; } /* '' */
+.#{$sports-font-prefix}theatre:before { content: '\e808'; } /* '' */
+.#{$sports-font-prefix}football:before { content: '\e809'; } /* '' */
+.#{$sports-font-prefix}basketball-1:before { content: '\e80a'; } /* '' */
+.#{$sports-font-prefix}pitch:before { content: '\e80b'; } /* '' */
+.#{$sports-font-prefix}badminton:before { content: '\e80c'; } /* '' */
+.#{$sports-font-prefix}rowing:before { content: '\e80d'; } /* '' */
+.#{$sports-font-prefix}rugby:before { content: '\e80e'; } /* '' */
+.#{$sports-font-prefix}archery:before { content: '\e80f'; } /* '' */
+.#{$sports-font-prefix}baking:before { content: '\e810'; } /* '' */
+.#{$sports-font-prefix}dance:before { content: '\e811'; } /* '' */
+.#{$sports-font-prefix}bouldering:before { content: '\e812'; } /* '' */
+.#{$sports-font-prefix}canoe:before { content: '\e813'; } /* '' */
+.#{$sports-font-prefix}shooting:before { content: '\e814'; } /* '' */
+.#{$sports-font-prefix}climbing:before { content: '\e815'; } /* '' */
+.#{$sports-font-prefix}bowl:before { content: '\e816'; } /* '' */
+.#{$sports-font-prefix}cycling:before { content: '\e817'; } /* '' */
+.#{$sports-font-prefix}volleyball:before { content: '\e818'; } /* '' */
+.#{$sports-font-prefix}unichallenge:before { content: '\e819'; } /* '' */
+.#{$sports-font-prefix}trampoline:before { content: '\e81a'; } /* '' */
+.#{$sports-font-prefix}tabletennis:before { content: '\e81b'; } /* '' */
+.#{$sports-font-prefix}squash:before { content: '\e81c'; } /* '' */
+.#{$sports-font-prefix}sail:before { content: '\e81d'; } /* '' */
+.#{$sports-font-prefix}run:before { content: '\e81e'; } /* '' */
+.#{$sports-font-prefix}pool:before { content: '\e81f'; } /* '' */
+.#{$sports-font-prefix}goal:before { content: '\e820'; } /* '' */
+.#{$sports-font-prefix}lacrosse:before { content: '\e821'; } /* '' */
+.#{$sports-font-prefix}martial:before { content: '\e822'; } /* '' */
+.#{$sports-font-prefix}hockey:before { content: '\e823'; } /* '' */
+.#{$sports-font-prefix}frisbee:before { content: '\e824'; } /* '' */
+.#{$sports-font-prefix}handball:before { content: '\e825'; } /* '' */
+.#{$sports-font-prefix}fencing:before { content: '\e826'; } /* '' */
+.#{$sports-font-prefix}horse:before { content: '\e827'; } /* '' */
+.#{$sports-font-prefix}netball:before { content: '\e828'; } /* '' */
+.#{$sports-font-prefix}darts:before { content: '\e829'; } /* '' */
+.#{$sports-font-prefix}fulltime:before { content: '\e82a'; } /* '' */
+.#{$sports-font-prefix}halftime:before { content: '\e82b'; } /* '' */
+.#{$sports-font-prefix}kickoff:before { content: '\e82c'; } /* '' */
+.#{$sports-font-prefix}debate:before { content: '\e82d'; } /* '' */
+.#{$sports-font-prefix}starttime:before { content: '\e82e'; } /* '' */
+.#{$sports-font-prefix}cheerleader:before { content: '\e82f'; } /* '' */
+.#{$sports-font-prefix}pokemon:before { content: '\e830'; } /* '' */
+.#{$sports-font-prefix}computer:before { content: '\e831'; } /* '' */
+.#{$sports-font-prefix}boxing:before { content: '\e832'; } /* '' */
+.#{$sports-font-prefix}croquet:before { content: '\e833'; } /* '' */
+.#{$sports-font-prefix}cinema:before { content: '\e834'; } /* '' */
