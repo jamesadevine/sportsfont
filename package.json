@@ -1,6 +1,6 @@
 {
   "name": "sportsfont",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "A font that contains a number of sports icons for use in front end development",
   "scripts": {
     "precommit": "npm test",
