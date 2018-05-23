@@ -25,6 +25,10 @@ To install the sports font manually, download the source and include the followi
 All font files contained in ./font will need to be stored relative to the css directory. If you would like to store the font on a different path, the paths at the top of ./css/sports.css
 will need to be modified.
 
+## npm
+
+`npm install sportsfont`
+
 ## Bower
 Sportsfont also now exists on bower and as such it can be install using the command:
 
